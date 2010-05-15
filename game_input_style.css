@@ -1,0 +1,61 @@
+select, input.text {
+	border: 1px solid #888888;
+	width: 100%;
+}
+
+table {
+	border:0;
+	border-collapse:collapse;
+	table-layout:fixed
+}
+
+td {
+	padding:4px;
+	background-color:#ffffff;
+	border-color:#bbbbbb;
+	border-style:solid;
+	border-width:thin;
+}
+
+th {
+	padding:4px;
+	background-color:#eeeeee;
+	border-color:#bbbbbb;
+	border-style:solid;
+	border-width:thin;
+}
+
+div.fixed {
+	clear: both;
+	position:fixed;
+}
+
+div.trow {
+	clear: both;
+	padding-top: 3px;
+}
+
+div.trow span.label {
+	float: left;
+	width: 40%;
+	text-align: left;
+	padding-top: 2px;
+}
+
+div.trow span.formw {
+	float: right;
+	width: 58%;
+}
+
+div.trow span.value {
+	float: right;
+	text-align: right;
+}
+
+span.info_text {
+	color: #00DD00;
+}
+
+span.error_text {
+	color: #FF0000;
+}
